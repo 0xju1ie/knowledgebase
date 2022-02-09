@@ -8,3 +8,4 @@
 - [Rocketpool](rocketpool.md)
   - [Rocketpool Smart Nodes](rocketpool-smart-nodes.md)
 - [Multisig Wallets](multisig-wallets.md)
+- [Lido](lido.md)
