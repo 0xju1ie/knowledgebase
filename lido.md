@@ -40,5 +40,15 @@
 - When you deposit ETH, the contract gives you the equivalent amount of stETH.
 - stETH can be held, trade, and sold like a normal token.
 - Deposits are delineated by 32 ETH groupings (the minimum to stake).
+- Funds are deposited to the Lido smart contract and then locked into the ETH Beacon chain.
+  - RocketPool does the same.
+- Since DAO chosen operators are considered trustworthy, they don't need to deposit collateral.
+  - This is supplemented with slashing insurance.
+  - This is more capital efficient.
+- DAO appointed oracles handle cross chain communication.
+  - The oracles monitor node operators' beacon chain staking accounts and submit data to the Lido's ETH 1.0 contracts.
+  - When the oracles update, the system recalculates the amount of stETH. If the overall staking rewards are greater than the slashing penalties, the system registers profit.
+    - When profit is registered, stETH balance is increased and Lido takes a 10% fee.
+    - That 10% gets split between node operators and the DAO treasury.
 
 ## Incomplete. More coming soon.
