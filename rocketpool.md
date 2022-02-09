@@ -1,8 +1,8 @@
-# RocketPool
+# Rocketpool
 
 ## Extremely High Level Overview
 
-![Figure 1](https://www.rocketpool.net/images/rp-infographic-staking-protocol.png)
+![Figure 1](https://miro.medium.com/max/875/0*_sJ3t7opc0wDcDDI.png)
 
 - Community Owned.
 - Base layer protocol for decentralized and trustless ETH2 staking.
@@ -23,7 +23,6 @@
 - Depositing and staking your ETH is a single transaction that RocketPool protocol handles.
 - rETH can be used with dApps, exchanges, wallets, or anyone who wants to build upon RocketPool.
 - RocketPool allows you to trade back your rETH for ETH, unlike the (current) state of staking without Rocketpool.
-
 - RocketPool is a decentralized liquid staking platform.
 - They follow all the traditional rules of a liquid staking platform, but have participants host their own RocketPool nodes rather than having a central node.
 - Node hosts have to have 16 ETH plus 1.6 ETH equivalent of RPL token to run a node.
