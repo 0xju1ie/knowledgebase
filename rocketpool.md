@@ -73,6 +73,14 @@
 - You can choose to wait if it will cost you more to claim your RPL than RPL you have.
   - Gas fees apply to RPL.
 
+## DAOs
+
+### Why use DAOs?
+
+- Permissioned Entry: New nodes can only enter the group after a consensus is reached within the existing group, only after providing they meet certain criteria.
+- Transparent consensus: All decisions must go through an on-chain proposal. Members can collectively vote to kick nodes who aren't doing their job and the wider RP community can always stay up on a new upgrade to the node group.
+- Permissionless incentives: Leveraging a DAO allows RPL to be directed to on-chain pool of node operators rather than having to distribute rewards earned from performing duties.
+
 ### Protocol DAO
 
 - Responsible for RPL governance.
@@ -111,9 +119,3 @@
   - Make sure the protocol is always lively and staking as much ETH from the deposit pool as it can. Oracle DAO members can create unbonded minipool validators that don't need the 16 ETH to be matched.
 
 ![Figure 3](https://miro.medium.com/max/1400/0*VtX5Q3POH8SPAODs.png)
-
-## Why use DAOs?
-
-- Permissioned Entry: New nodes can only enter the group after a consensus is reached within the existing group, only after providing they meet certain criteria.
-- Transparent consensus: All decisions must go through an on-chain proposal. Members can collectively vote to kick nodes who aren't doing their job and the wider RP community can always stay up on a new upgrade to the node group.
-- Permissionless incentives: Leveraging a DAO allows RPL to be directed to on-chain pool of node operators rather than having to distribute rewards earned from performing duties.
