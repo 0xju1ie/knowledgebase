@@ -1,16 +1,25 @@
 # Avalanche
 
-- New Blockchain made to compete with Ethereum.
+- New Blockchain made to compete with Ethereum?
+  - This is a controversial topic. Emin does not believe in Avalanche being a competitor to Etherium or to many of the other chains. He mainly believes in an ever growing blockchian space, where there is a multichain future, each chain with their own use case. 
+    - [Chains are complementary](https://www.youtube.com/watch?v=PsBvxsaPw5I&t=1626s)
+    - [Avalanche is not an Etherium Killer](https://www.youtube.com/watch?v=fb4uUN0RqOI)
 - Very fast - Ethereum only can process about 15 transactions per second, while Avalanche can process over 4500 per second.
 - Proof of Stake, rather than proof of work (Ethereum is moving to Proof of Stake with 2.0).
 - 1:1 Ethereum smart contract compatible (Solidity).
+  - Any app on etherium can be ported over to Avalanche due to the c-chain implementing an instance of EVM (Etherium Virtual Machine).
 - Three separate, distinct blockchains - X Chain, P Chain, C Chain.
   - X Chain is for transferring between wallets, for example Chandler’s Wallet → Steve’s Wallet. Also where you can create assets.
   - C Chain is for running Smart Contracts. Also where ERC-20 Tokens and dApps are created & hosted.
   - P Chain is for staking and running validators. Validators is how the blockchain keeps in sync.
     - Uses the [Snowman Consensus Protocol](https://docs.avax.network/#snowman-consensus-protocol), which is how they keep the blockchain secure and scalable. More technical details [here](https://docs.avax.network/learn/platform-overview/avalanche-consensus).
-- Has the ability to create subnets with new unique blockchains.
-- Supports private blockchains.
+- Avalanche is flexible from it subnets to its consensus
+  - It is a base, like an OS and allows for customiszation.
+    - [Emin's explaination regarding this](https://www.youtube.com/watch?v=PsBvxsaPw5I)
+    - Has the ability to create subnets with new unique blockchains.
+    - Supports private blockchains.
+  - [Its Snow* consensus protocols are meant to tip](https://www.youtube.com/watch?v=Sfb8G54AM_4)
+- [General techincal overview of Avalanche](https://www.youtube.com/watch?v=iEFFlu7q944)
 
 ## Governance
 
